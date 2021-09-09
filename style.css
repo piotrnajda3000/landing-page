@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* First section */
+
+#firstWrapper {
+  background-color: #6e2937;
+  display: flex;
+  justify-content: center;
+}
+
+#first {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  flex: 1;
+  padding: 1rem 14rem 7rem;
+  gap: 7rem;
+}
+
+#header,
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero {
+  gap: 2rem;
+}
+
+#headerLogo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#headerNav {
+  display: flex;
+  gap: 2rem;
+}
+
+#heroLeft h2,
+#heroLeft button,
+#headerLogo {
+  color: white;
+}
+
+#heroLeft button {
+  padding-inline: 2rem;
+  padding-block: 7px;
+  background-color: #ed5876;
+  border: 0;
+  outline: none;
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+#heroLeft h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+#heroLeft,
+#heroRight {
+  flex: 1 1 0;
+}
+
+#heroRight {
+  display: flex;
+  justify-content: center;
+}
+
+#heroRight img {
+  flex: 1;
+  object-fit: cover;
+  max-height: calc(214px + 1rem);
+  border-radius: 7px;
+}
+
+#first li,
+#first p,
+#heroRight img {
+  color: hsl(0, 0%, 92%);
+}
