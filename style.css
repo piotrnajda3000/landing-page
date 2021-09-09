@@ -20,6 +20,20 @@ ul {
   padding: 0;
 }
 
+/* Shared between some sections */
+
+.section-center {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+h3 {
+  font-size: 36px;
+}
+
 /* First section */
 
 #firstWrapper {
@@ -44,10 +58,6 @@ ul {
   align-items: center;
 }
 
-#hero {
-  gap: 2rem;
-}
-
 #headerLogo {
   font-size: 24px;
   font-weight: 600;
@@ -62,6 +72,10 @@ ul {
 #heroLeft button,
 #headerLogo {
   color: white;
+}
+
+#hero {
+  gap: 2rem;
 }
 
 #heroLeft button {
@@ -102,3 +116,31 @@ ul {
 #heroRight img {
   color: hsl(0, 0%, 92%);
 }
+
+/* Second section */
+
+#second h3 {
+  color: #541f2a;
+}
+
+.randomInfoBox {
+  width: 170px;
+  height: 170px;
+  border-radius: 16px;
+  border: 7px solid #ba455c;
+}
+
+#randomInfoWrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.randomInfo {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 170px;
+  text-align: center;
+}
+
