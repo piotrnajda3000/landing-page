@@ -41,10 +41,17 @@ h4 {
 
 /* First section */
 
-#firstWrapper {
-  background: hsl(348, 52%, 25%);
+.wrapper {
   display: flex;
   justify-content: center;
+}
+
+#firstWrapper {
+  background: hsl(348, 52%, 25%);
+}
+
+#thirdWrapper {
+  background-color: hsl(348, 51%, 25%);
 }
 
 #first {
@@ -200,6 +207,7 @@ h4 {
 
 .section-center#fourth {
   padding-inline: 14rem;
+  margin: auto;
 }
 
 #cta {
@@ -286,5 +294,5 @@ a:hover {
   justify-content: center;
   align-items: center;
   padding-inline: 14rem;
-  padding-block: 3rem;
+  padding-block: 2rem;
 }
