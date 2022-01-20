@@ -24,8 +24,8 @@ body {
 }
 
 h3 {
-  font-size: 36px;
   margin-top: 0;
+  font-size: 36px;
 }
 
 h4 {
@@ -80,19 +80,14 @@ a {
   padding: 1rem 14rem 7rem;
 }
 
-#heroLeft h2,
-#heroLeft button,
+/* First section - header */
+
 #headerLogo,
 #headerNav li:hover {
   color: var(--c-txt-white);
 }
 
-#heroRight img {
-  color: var(--c-txt-muted);
-}
-
-#header,
-#hero {
+#headerWrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -117,7 +112,21 @@ a {
   cursor: pointer;
 }
 
+/* First section - hero */
+
+#heroLeft h2,
+#heroLeft button {
+  color: white;
+}
+
+#heroRight img {
+  color: var(--c-txt-muted);
+}
+
 #hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 2rem;
 }
 
