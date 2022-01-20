@@ -1,6 +1,4 @@
-# Landing Page
-
-**[Live link](https://wwww.piotrnajda3000.github.io/landing-page)**
+# **[Live link](https://wwww.piotrnajda3000.github.io/landing-page)**
 
 Made for [The Odin Project](https://www.theodinproject.com)'s curriculum.
 
