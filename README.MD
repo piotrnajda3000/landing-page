@@ -2,7 +2,7 @@
 
 ## **[Live link](https://piotrnajda3000.github.io/landing-page/)**
 
-Site meant for dekstop viewing only.
+Site built for dekstop viewing.
 
 Made for [The Odin Project](https://www.theodinproject.com)'s curriculum.
 
