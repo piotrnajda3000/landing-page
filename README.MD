@@ -1,4 +1,6 @@
-# **[Live link](https://piotrnajda3000.github.io/landing-page/)**
+# Landing Page
+
+## **[Live link](https://piotrnajda3000.github.io/landing-page/)**
 
 Site meant for dekstop viewing only.
 
