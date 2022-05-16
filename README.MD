@@ -1,11 +1,11 @@
 # Landing Page
 
-Site is meant for desktop viewing.
-
-[Live link](https://piotrnajda3000.github.io/landing-page/)
-
-Made for [The Odin Project](https://www.theodinproject.com)'s curriculum.
+[Project brief](https://www.theodinproject.com/lessons/foundations-landing-page) 
 
 I was responsible for implementing the design in "mock" & "mock_meta" images. 
 
-**Acknowledgement**: Hero image - [Paweł Czerwiński](https://unsplash.com/@pawel_czerwinski)
+Site not built with mobile viewing in mind. 
+
+[Live link](https://piotrnajda3000.github.io/landing-page/)
+
+Hero image by [Paweł Czerwiński](https://unsplash.com/@pawel_czerwinski)
