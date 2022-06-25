@@ -1,9 +1,11 @@
 # Landing Page
 
-[Project brief](https://www.theodinproject.com/lessons/foundations-landing-page) 
+## _[View the site](https://piotrnajda3000.github.io/landing-page/)_
 
-Site not built with mobile viewing in mind. 
+**Project brief:** implement a website from a given design:
 
-*[Live link](https://piotrnajda3000.github.io/landing-page/)*
+<img src="./design.png" width="600" />
+
+<img src="./colors_fonts.png" width="600" />
 
 Hero image by [Paweł Czerwiński](https://unsplash.com/@pawel_czerwinski)
