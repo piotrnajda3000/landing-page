@@ -1,1 +1,205 @@
-@use "globals" as *;
+@forward "globals";
+
+.section {
+  display: flex;
+  flex-direction: column;
+
+  .wrapper {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+  }
+
+  &--1 {
+    .wrapper {
+      gap: var(--space-4);
+    }
+
+    background-color: var(--bg-dark);
+    padding-block: var(--space-2) var(--space-4);
+    padding-inline: var(--space-5);
+
+    .header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      &__logo {
+        font-size: var(--fontSize-3);
+        font-weight: var(--fontWeight-2);
+        color: var(--txt-light);
+      }
+
+      &__menu {
+        display: flex;
+        gap: var(--space-3);
+
+        &-item {
+          font-size: var(--fontSize-2);
+          color: var(--txt-grey);
+        }
+      }
+    }
+
+    .hero {
+      min-height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-3);
+
+      margin-block: auto;
+
+      &__left {
+        flex: 1;
+        display: flex;
+        gap: var(--space-1);
+        flex-direction: column;
+
+        &-heading {
+          color: var(--txt-light);
+          font-size: var(--fontSize-5);
+        }
+      }
+
+      &__right {
+        align-self: stretch;
+        flex: 1.24;
+        border-radius: 8px;
+        background: url("../hero_image.jpg");
+        background-size: cover;
+      }
+    }
+  }
+
+  &--2 {
+    .wrapper {
+      gap: var(--space-2);
+    }
+
+    background-color: var(--txt-light);
+    padding-block: var(--space-3) var(--space-4);
+    padding-inline: var(--space-6);
+
+    &__header {
+      display: flex;
+      justify-content: center;
+      color: var(--txt-dark-2);
+    }
+
+    &__cards {
+      display: flex;
+      gap: var(--space-2);
+
+      .card {
+        flex: 1;
+        .img {
+          border-radius: 8px;
+          width: 140px;
+          height: 140px;
+
+          &--1 {
+            background-color: hsl(330, 82%, 67%);
+          }
+
+          &--2 {
+            background: hsl(330, 52%, 56%);
+          }
+
+          &--3 {
+            background: var(--txt-dark-2);
+          }
+
+          &--4 {
+            background: var(--txt-dark);
+          }
+        }
+        p {
+          text-align: center;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--space-1);
+        color: var(--txt-dark-2);
+        font-weight: var(--fontWeight-0);
+      }
+    }
+  }
+
+  &--3 {
+    .wrapper {
+      max-width: 750px;
+      margin: auto;
+    }
+
+    background-color: var(--txt-grey);
+    padding-block: var(--space-4) var(--space-4);
+    padding-inline: var(--space-6);
+
+    p {
+      &.big {
+        font-size: var(--fontSize-4);
+        color: var(--bg-dark);
+        font-weight: var(--fontWeight-0);
+      }
+      &.author {
+        align-self: flex-end;
+        color: var(--bg-dark);
+        font-weight: var(--fontWeight-2);
+      }
+    }
+  }
+
+  &--4 {
+    .wrapper {
+      max-width: 760px;
+      margin: auto;
+    }
+
+    background-color: var(--txt-light);
+    padding-block: var(--space-3) var(--space-4);
+    padding-inline: var(--space-6);
+
+    .cta {
+      gap: 8px;
+      border-radius: 8px;
+      background-color: var(--cta);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-block: var(--space-2);
+      padding-inline: var(--space-4);
+
+      &__textBox {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        &-big {
+          font-weight: var(--fontWeight-2);
+          font-size: var(--fontSize-3);
+        }
+      }
+    }
+  }
+}
+
+.button {
+  width: 170px;
+  height: 40px;
+
+  border-radius: 8px;
+
+  &--cta {
+    font-size: var(--fontSize-1);
+    font-weight: var(--fontWeight-2);
+    background-color: var(--cta);
+
+    &--transparent {
+      background-color: transparent;
+      border: 2px solid var(--txt-grey);
+    }
+  }
+}
