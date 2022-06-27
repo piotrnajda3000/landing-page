@@ -14,7 +14,7 @@ The final outcome:
 
 ![](design/full_webpage.png)
 
-Website is designed to suit viewports of 1320 px and above. I will implement responsiveness once I learn it.
+Website is designed to suit viewports of 1060 px and above. I will implement responsiveness once I learn it.
 
 This is my first foray into SCSS (with BEM).
 
