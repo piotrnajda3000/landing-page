@@ -1,5 +1,7 @@
 # Landing Page
 
+Plain styled site. Practicing my CSS skills. Yet to implement media query responsiveness. 
+
 ## _[View the site](https://piotrnajda3000.github.io/landing-page/)_
 
 **Project brief:** implement a website from a given design
@@ -13,10 +15,6 @@ I've reimplemented part of the design in Figma first, as a starting point:
 The final outcome:
 
 ![](design/full_webpage.png)
-
-Website is designed to suit viewports of 1060 px and above. I will implement responsiveness once I learn it.
-
-This is my first foray into SCSS (with BEM).
 
 ---
 
